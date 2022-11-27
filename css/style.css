@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  color: #7de1b3;
+}
+.container input {
+  padding: 4px;
+  outline: none;
+  color: #555;
+}
+.container button {
+  padding: 6px;
+  color: white;
+  background-color: #7de1b3;
+  border: none;
+  border-radius: 4px;
+  margin-left: 16px;
+}
+
+.todolist {
+  margin-top: 1.2rem;
+  list-style: none;
+}
+.todolist li {
+  padding: 4px 0;
+}
+.done {
+  text-decoration: line-through;
+}
